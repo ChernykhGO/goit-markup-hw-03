@@ -150,7 +150,7 @@ a {
 .link-contact:hover {
   color: var(--accent-color);
 }
-.link-contact.mail {
+.mailto {
   margin-right: 30px;
 }
 
@@ -196,7 +196,8 @@ a {
 /*Feature*/
 
 .section.feature .container {
-  padding: 92px 15px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .features.list {
@@ -258,12 +259,18 @@ a {
 .team .team.list {
   display: flex;
   margin-top: 50px;
-  justify-content: space-between;
+}
+
+.team .team-people {
+  width: 270px;
+}
+
+.team .team-people:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team.list .people-content {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px;
   text-align: center;
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
@@ -331,10 +338,7 @@ a {
 
 /* Стили для Портфолио*/
 
-.portfolio .container {
-  /* display: flex;
-  align-items: center;
-  margin-bottom: 34px; */
+.section.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -385,6 +389,7 @@ a {
 .portfolio-cards {
   margin-right: 30px;
   margin-bottom: 30px;
+  width: 370px;
 }
 
 .portfolio-cards:nth-child(3n) {
