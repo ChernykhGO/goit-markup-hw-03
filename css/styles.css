@@ -196,8 +196,8 @@ a {
 /*Feature*/
 
 .section.feature .container {
-  padding-top: 95px;
-  padding-bottom: 95px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features.list {
@@ -379,8 +379,6 @@ a {
 .portfolio.list {
   display: flex;
   flex-wrap: wrap;
-}
-.portfolio-list {
   padding: 20px 24px;
   border-style: none solid solid;
   border-width: 1px;
